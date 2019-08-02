@@ -46,8 +46,8 @@ code {
 
 .title_text {
   text-align: center;
-  margin: 1% 0% 0% 12%;
-  color: #89cff0;
+  margin: 2% 0% 0% 0%;
+  color: #4db6ac;
   font-size: 1.5em;
 }
 .footer {
@@ -272,26 +272,25 @@ form button:active {
   margin-left: -250px; /* Half the width */
 }
 
-@media only screen and (max-width: 850px) {
-    #imageContainer {
-      height: 500px;
-    }
-    form {
-      height: 350px;
-    }
-    form input {
-      height: 100%
-    }
-    #barchart_1 {
-      margin: -30% 0% 0% 0%;
-    }
+@media screen and (max-width: 500px) {
+  .title_text {
+    margin: 3% 0% 0% 0%;
+  }
+  #barchart_1 {
+     width: 100px;
+  }
 }
 
+@media screen and (max-width: 840px) {
+  #barchart_1 {
+    margin: -30% -40% 20% 0%;
+  }
+} 
 
-
-@media only screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   #barchart_1 {
     margin: -30% 0% 0% 10%;
   }
 }
   
+
